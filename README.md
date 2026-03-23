@@ -6,10 +6,6 @@
 
 Generic tree data structure with DFS/BFS traversal, path finding, LINQ enumeration, and flat-to-tree conversion.
 
-## Requirements
-
-- .NET 8.0 or later
-
 ## Installation
 
 ```bash
@@ -93,13 +89,9 @@ Console.WriteLine(tree.ToTreeString());
 ## Development
 
 ```bash
-# Build
 dotnet build src/Philiprehberger.TreeStructure.csproj --configuration Release
-
-# Pack
-dotnet pack src/Philiprehberger.TreeStructure.csproj --configuration Release -o out
 ```
 
 ## License
 
-[MIT](LICENSE)
+MIT
