@@ -3,6 +3,7 @@
 [![CI](https://github.com/philiprehberger/dotnet-tree-structure/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/dotnet-tree-structure/actions/workflows/ci.yml)
 [![NuGet](https://img.shields.io/nuget/v/Philiprehberger.TreeStructure.svg)](https://www.nuget.org/packages/Philiprehberger.TreeStructure)
 [![License](https://img.shields.io/github/license/philiprehberger/dotnet-tree-structure)](LICENSE)
+[![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ec6cb9)](https://github.com/sponsors/philiprehberger)
 
 Generic tree data structure with DFS/BFS traversal, path finding, LINQ enumeration, and flat-to-tree conversion.
 
