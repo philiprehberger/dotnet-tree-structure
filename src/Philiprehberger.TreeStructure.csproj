@@ -1,6 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <!-- Build settings -->
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
@@ -8,10 +9,11 @@
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
 
+    <!-- Package metadata -->
     <PackageId>Philiprehberger.TreeStructure</PackageId>
-    <Version>0.1.2</Version>
+    <Version>0.2.0</Version>
     <Authors>Philip Rehberger</Authors>
-    <Description>Generic tree data structure with DFS/BFS traversal, path finding, LINQ enumeration, and flat-to-tree conversion.</Description>
+    <Description>Generic tree data structure with traversal, serialization, subtree mutation, lowest common ancestor, and flat-to-tree conversion.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageTags>tree;data-structure;hierarchy;traversal;graph</PackageTags>

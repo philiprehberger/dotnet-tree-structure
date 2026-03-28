@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.2.0 (2026-03-28)
+
+- Add tree serialization with `Serialize()` and `Deserialize<T>(string)` using `System.Text.Json`
+- Add subtree mutation methods: `Remove()`, `MoveTo(TreeNode<T>)`, `InsertBefore(TreeNode<T>)`, `InsertAfter(TreeNode<T>)`
+- Add `FindLCA(TreeNode<T>, TreeNode<T>)` for lowest common ancestor lookup
+- Add depth-limited traversal via optional `maxDepth` parameter on `Traverse()`
+- Add unit tests with xUnit
+- Add GitHub issue templates, dependabot config, and PR template
+- Add Support section to README
+- Update CI workflow to include test step
+
 ## 0.1.2 (2026-03-22)
 
 - Fix README badge order to CI, NuGet, License
